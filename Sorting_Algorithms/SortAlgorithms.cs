@@ -9,7 +9,7 @@ namespace SortingAlgorithms
     public class SortAlgorithms
     {
 
-
+        //Average case O(n log (n))
         public void MergeSort(int[] array, int l, int r)
         {
             if (l < r)
@@ -167,6 +167,7 @@ namespace SortingAlgorithms
         }
 
         // ----------------------------------------INSERTION SORT-------------------------------------------
+        // average case O(n^2)
         public void insertionSort(int[] array)
         {
             for (int i = 1; i < array.Length; i++)
